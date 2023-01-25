@@ -50,7 +50,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-<!--                    <mainClass>com.example.pc_remote_control.PcRemoteStartApplication</mainClass>-->
+                    <mainClass>com.example.pc_remote_control.PcRemoteStartApplication</mainClass>
+                    <finalName>pc_remote_control</finalName>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
